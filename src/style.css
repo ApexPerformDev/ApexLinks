@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #171a63;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.buttonsList{  
+    width: 23rem; 
+    list-style-type: none;
+}
+
+
+.buttons{
+    background-color: #c82fbe;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 1rem;
+    border: solid 3px #c82fbe;
+    border-radius: 10px;
+    margin: 0.8rem;
+    padding: 0.6rem 1.2rem;
+}
+
+
+.icons{
+    width: 2rem;
+}
+
+
+
+.links{
+    color: #ffffff;
+    display: grid;
+    align-content: center;
+}
