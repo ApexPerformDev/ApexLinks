@@ -10,7 +10,7 @@ body{
     Font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
-    background-image: url('/src/img/background.png');
+    background-image: url('../src/img/background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
