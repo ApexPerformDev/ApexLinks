@@ -7,10 +7,11 @@
 }
 
 body{
+    background-color: #06091f;
     Font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
-    background-image: url('../src/img/background.png');
+    background-image: url('../src/img/bg/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,29 +19,25 @@ body{
 }
 
 .container{
-    height: 100vh;
-    display: grid;
-    justify-items: center;
-    align-content: end;
-}
-
-/*.titulo{
     display: grid;
     justify-content: center;
-    background: linear-gradient(to right, #a46ede 40px, #dabfef 80px, #ffffff 100px);
+}
 
+.topBg{
+    display: grid;
+    justify-items: center;
 }
-.tituloTransparente{
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;   
-}
-*/
 
-.buttonsList{  
-    width: 27rem; 
-    list-style-type: none;
-    padding-bottom: 1.5rem;
+.titulo{
+    margin-top: 1rem;
 }
+
+
+.lista{
+    display: grid;
+    justify-items: center;
+}
+
 
 .buttons{
     background-color: #4600be;
@@ -62,11 +59,10 @@ body{
 }
 
 .buttonsTransparente{
-    background-color: #4600be00;
+    background-color: #fffbfb;
 }
 
 .icons{
-
     width: 2rem;
 }
 
@@ -76,21 +72,7 @@ body{
     align-content: center;
 }
 
-@media screen and (max-width: 915px) {
-    
-    .buttonsList{  
-        z-index: 1;
-        width: 90%; 
-        list-style-type: none;
-        align-content: end;
-    }
-
-    .buttons{
-        transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-    }
-    
-    .buttons:hover{
-        transform: scale(1, 1);
-    }
-
+.textD{
+    color: #4600be;
 }
+
